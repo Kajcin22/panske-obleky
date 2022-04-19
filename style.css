@@ -53,9 +53,14 @@ h1.site-title span {
 .product__image {
   width: 6rem;
   height: auto;
+  fill: white;
 }
 
 .t-shirt {
   stroke: #000;
   stroke-width: 2;
+}
+
+.toggle-color {
+  border: gold 3px solid;
 }
