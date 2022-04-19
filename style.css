@@ -54,6 +54,7 @@ h1.site-title span {
 .product__image {
   width: 6rem;
   height: auto;
+  fill: white;
 }
 
 .t-shirt {
@@ -95,4 +96,8 @@ h1.site-title span {
 
 .color-option {
   display: flex;
+}
+
+.toggle-color {
+  border: gold 3px solid;
 }
