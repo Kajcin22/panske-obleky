@@ -48,6 +48,7 @@ h1.site-title span {
   margin-top: -5rem;
   padding: 3rem;
   background-color: #141518;
+  display: flex;
 }
 
 .product__image {
@@ -58,4 +59,40 @@ h1.site-title span {
 .t-shirt {
   stroke: #000;
   stroke-width: 2;
+}
+
+.color-option__white {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+}
+
+.color-option__black {
+  background-color: black;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+}
+
+.color-option__red {
+  background-color: brown;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+}
+
+.color-option__skyblue {
+  background-color: skyblue;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+}
+
+.btn {
+  margin: 10px;
+}
+
+.color-option {
+  display: flex;
 }
